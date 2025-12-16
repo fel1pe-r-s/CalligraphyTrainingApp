@@ -1,0 +1,22 @@
+/* Ajustes específicos para impressão */
+@media print {
+    @page { margin: 0; size: auto; }
+    body { -webkit-print-color-adjust: exact; background-color: white !important; }
+    aside { display: none !important; }
+    main { padding: 0 !important; margin: 0 !important; background: white !important; overflow: visible !important; }
+    .sheet-container { 
+        box-shadow: none !important; 
+        margin: 0 !important; 
+        width: 100% !important; 
+        max-width: none !important; 
+        padding: 15mm !important; 
+        border: none !important; 
+        min-height: auto !important;
+    }
+    canvas { display: none !important; } 
+    .no-print { display: none !important; }
+}
+
+/* Fontes Personalizadas */
+.font-medieval { font-family: 'UnifrakturMaguntia', cursive; }
+.font-jutai { font-family: 'Allura', cursive; }
