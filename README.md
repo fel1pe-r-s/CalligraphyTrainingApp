@@ -1,4 +1,6 @@
-# Mestre Calígrafo - Treino Digital e Impresso
+**Tags**: #CSS #Docker #Html #JavaScript #Markdown
+
+#CalligraphyTrainingApp # Mestre Calígrafo - Treino Digital e Impresso
 
 Este é um aplicativo web simples para treino de caligrafia, permitindo tanto a prática digital (em tablets ou com mouse) quanto a impressão de folhas de exercícios.
 
